@@ -10,7 +10,7 @@ import {BrowserModule} from '@angular/platform-browser';
 import { MatButtonModule } from '@angular/material/button';
 import { MatCardModule } from '@angular/material/card';
 import { MatDatepickerModule } from '@angular/material/datepicker';
-import { MatDialogModule } from '@angular/material/dialog';
+// import { MatDialogModule } from '@angular/material/dialog';
 import { MatIconModule } from '@angular/material/icon';
 import { MatInputModule } from '@angular/material/input';
 import { MatListModule } from '@angular/material/list';
@@ -28,6 +28,7 @@ import {MatMomentDateModule} from '@angular/material-moment-adapter';
 import {ReactiveFormsModule} from '@angular/forms';
 import {CoursesService} from './services/courses.service';
 import {courseResolver} from './services/course.resolver';
+import { MatDialogModule } from '@angular/material/dialog';
 
 @NgModule({
     declarations: [
